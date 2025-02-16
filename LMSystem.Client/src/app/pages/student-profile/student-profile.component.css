@@ -1,0 +1,698 @@
+
+#sidbac {
+    background: #F3F3F7;
+    width: 98%;
+    height: 90%;
+    gap: 0px;
+    top: 5%;
+    left: 1%;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  #sid {
+    /* background: url('ph1.jpg'); */
+    width: 16%;
+    height: 92%;
+    gap: 0px;
+    top: 5%;
+    left: 1%;
+    border: None;
+    border-radius: 10px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  #tau {
+    /* background: url('tau1.png'); */
+    background-size: cover;
+    position: absolute;
+    width: 8%;
+    height: 16%;
+    left: 5%;
+    top: 3%;
+    z-index: 3;
+  }
+  #account-settings{
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+  }
+  .hello {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .container1 {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 80%;
+    gap: 0px;
+    top: 12vh;
+    left: 23vw;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    position: absolute;
+    display: block;
+    z-index: 0;
+    overflow: auto;
+  }
+  
+.container2 {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(auto-fill, 100%);
+    width: 100%;
+    height: 25%;
+    grid-gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .container22 {
+    display: grid;
+    /* Используем grid layout */
+    grid-template-columns: 1fr 1fr;
+    /* Разделяем контейнер на две колонки */
+    gap: 10px;
+    /* Добавляем небольшой зазор между элементами */
+    width: 100%;
+    height: 30%;
+  
+  }
+  
+  .containerOUT {
+  
+    display: flow-root;
+    flex-direction: column;
+    /* расположить элементы вертикально */
+    gap: 10px;
+    /* margin-top: ; */
+    width: 100%;
+    height: 40%;
+    overflow: auto;
+  
+    border-radius: 10px;
+    /* Закругляем углы обводки */
+  }
+  
+  
+  
+  /* Стилизация скроллбара */
+  .containerOUT::-webkit-scrollbar {
+    width: 7px;
+    /* Уменьшаем ширину скроллбара */
+  }
+  
+  .containerOUT::-webkit-scrollbar-track {
+    background: transparent;
+    /* Цвет фона скроллбара */
+  }
+  
+  .containerOUT::-webkit-scrollbar-thumb {
+    background: orange;
+    /* Цвет ползунка скроллбара */
+    border-radius: 4px;
+    /* Закругление углов ползунка */
+  }
+  
+  .containerOUT::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+    /* Цвет ползунка при наведении */
+  }
+  
+  /* Для Firefox */
+  .containerOUT::-moz-scrollbar {
+    width: 7px;
+    height: 20px;
+    /* Изменяем высоту скроллбара */
+  
+  }
+  
+  .containerOUT::-moz-scrollbar-track {
+    background: transparent;
+  }
+  
+  .containerOUT::-moz-scrollbar-thumb {
+    background: orange;
+    border-radius: 2px;
+  }
+  
+  .containerOUT::-moz-scrollbar-thumb:hover {
+    background: #ff8000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #ada,
+  .container22 div {
+    display: flex;
+    flex-direction: column;
+    /* Элементы внутри контейнеров будут располагаться вертикально */
+  }
+  
+  
+  /* Таблица вкладок */
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #f60;
+    font-weight: bold;
+    color: #f60;
+  }
+  
+  .tab-button:not(.active):hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  
+  
+  .PrPicture {
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center; /* Выравнивание текста и изображения по центру */
+  
+    z-index: 32;
+  }
+  
+   #IZB{
+    font-size: 90%;
+    text-decoration: none;
+  
+    margin-left: 2%;
+    z-index: 5;
+  }
+  
+  .imagek1 {
+    position: relative;
+    bottom: 10%;
+    height: auto;
+    border-radius: 3vw;
+  width: 40%;
+    cursor: pointer;
+  
+  
+    margin: 1.7vw;
+  }
+  
+  .in-button {
+  
+    text-decoration: underline;
+    width: 20%;
+    height: 10%;
+    font-size: 1vw;
+  
+  
+    cursor: pointer;
+  
+  
+  }
+  #A22{  text-decoration: underline;
+    background-color: inherit;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10%;
+  }
+  
+  
+  
+  .imag1 {
+      font-size: 100%;
+  
+  }
+  
+  .imag2 {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .imagek {
+      width: 40%;
+      height: auto;
+      border-radius: 7px;
+  }
+  
+  
+  
+  
+  
+  .PheolTable, .OrangeTable {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      height: 70%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      color: white;
+      font-family: Arial, sans-serif;
+  }
+  
+  .PheolTable {
+      background-color: #ff7043;
+  }
+  
+  .OrangeTable {
+      background-color: #9575cd;
+  }
+  
+  
+  
+  .vvod {
+    width: 90%;
+    height: 6vh;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-left: 1vw;
+    /* background-color: lightgrey; */
+  
+    font-size: 20px;
+    /* Отступ внутри текстового поля */
+  
+  }
+  
+  #IZy {
+  
+  margin-left: 2%;}
+  
+  #IZy1 {
+  margin-left: 2%;
+  }
+  
+  #IZy2 {
+  margin-left: 2%;
+  }
+  
+  .vvod1 {
+    width: 97%;
+    height: 135px;
+    padding: 0.2vw;
+  /* background-color: lightgrey; */
+    /* Устанавливаем значение line-height */
+    font-size: 20px;
+    margin-left: 0.6vw;
+    border-radius: 10px;
+    border: 2px solid grey;
+    line-height: 1;
+    /* Уменьшаем пробел между строками */
+   resize: none;
+  
+  }
+  
+  
+  
+  
+  /* Стилизация кнопки */
+  .button12 {
+    background-color: orange;
+    /* Цвет фона кнопки */
+    color: white;
+    /* Цвет текста кнопки */
+    border: none;
+    /* Убираем границу кнопки */
+    padding: 8px 17px;
+    /* Отступы внутри кнопки */
+    border-radius: 5px;
+    /* Закругление углов кнопки */
+    cursor: pointer;
+    /* Указатель мыши при наведении на кнопку */
+    transition: background-color 0.3s ease;
+    /* Плавное изменение цвета фона при наведении */
+  margin-left: 2%;
+  
+  }
+  
+  .button12:hover {
+    background-color: #ff8000;
+    /* Изменяем цвет фона кнопки при наведении */
+  }
+  
+  
+  /* Стилизация кнопки Reset */
+  .reset-button {
+    background-color: white;
+    /* Белый фон кнопки */
+    color: black;
+    /* Черный цвет текста кнопки */
+    border: none;
+    /* Черная граница кнопки */
+    padding: 10px 20px;
+    /* Отступы внутри кнопки */
+    border-radius: 5px;
+    /* Закругление углов кнопки */
+    cursor: pointer;
+    /* Указатель мыши при наведении на кнопку */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Плавное изменение цвета фона и текста при наведении */
+  }
+  
+  .reset-button:hover {
+    background-color: #f0f0f0;
+    /* Изменяем цвет фона кнопки при наведении */
+    color: black;
+    /* Изменяем цвет текста кнопки при наведении */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .email2 {
+    color: white;
+    max-width: 5VW;
+    position: absolute;
+    left: 2%;
+    height: auto;
+  
+  
+  
+  }
+  
+  .containerT2 {
+    background-color: yellow;
+  
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 20%);
+  
+    grid-gap: 10px;
+    /* Добавлено для расстояния между строками */
+  }
+  
+  .containerT3 {
+    width: 90%;
+    margin-left: 2%;
+    background-color: pink;
+    display: flex;
+
+    /* Изменено на flex для выравнивания элементов по горизонтали */
+    align-items: center;
+    /* Вертикальное выравнивание */
+    padding: 10px;
+    /* Добавлено для внутреннего отступа */
+    border: 1px solid #ccc;
+    /* Добавлено для обводки */
+    border-radius: 5px;
+    /* Добавлено для скругления углов */
+  }
+  
+  .email2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    /* Добавлено для отступа справа */
+  }
+  
+  .check-icon {
+    color: green;
+  }
+  
+  .edit-link,
+  .link-button {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .security-settings {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+  }
+  
+  .zagi {
+    margin-left: 20%;
+  }
+  
+  .security-item {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .security-item p {
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+  
+  .security-item .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .security-item .check-icon {
+    color: green;
+  }
+  
+  .security-item .edit-link,
+  .security-item .link-button {
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .edit-link {
+    width: 13%;
+    padding: 1%;
+    text-align: center;
+    /* Центрирование текста */
+  
+  
+  }
+  
+  .link-button {
+    width: 15%;
+    padding: 1%;
+    font-size: 14px;
+    margin-left: auto;
+  }
+  
+  .kota {
+    margin-bottom: 7%;
+    margin-left: 30%;
+    width: 25%;
+    border: 4px solid orange;
+    height: 3%;
+  }
+  
+  
+  .notification-container {
+      width: 80%;
+      margin: 0 auto;
+  
+  }
+  
+  .notification-tabs {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+  
+  
+  
+  .notification-tab {
+      padding: 10px 20px;
+      border-bottom: 5px solid orange;
+      border-radius: 5px;
+  }
+  
+  .notification-tab:hover {
+      background-color: lightgrey;
+  }
+  
+  .notification-count {
+    background-color: none;
+      color: black;
+      padding: 3px 7px;
+      border-radius: 50%;
+        margin-left: 5px;
+    }
+  
+  .notification-content {
+      margin-top: 20px;
+  }
+  
+  .notification-content-tab {
+      display: none;
+  }
+  
+  .notification-content-tab.active {
+      display: block;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Убираем стрелки спиннера из поля ввода */
+  input.vvod[type=number]::-webkit-outer-spin-button,
+  input.vvod[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input.vvod[type=number] {
+      -moz-appearance: textfield;
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      font-size: 14px;  }
+  
+    .container1 {    width: 90%;
+      left: 5%;  }
+    .container2 {    width: 100%;
+      height: 20%;    left: 5%;
+    }
+  
+  #IZB{
+    font-size: 78%;}
+    .in-button{
+  font-size: 12px;margin-bottom: 100%;
+    }
+  
+  
+    .imag1 {
+        font-size: 100%;
+  
+    }
+  
+    .imag2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+  
+    .imagek {
+        width: 40%;
+        height: auto;
+        border-radius: 7px;
+    }
+  
+  
+  
+  
+  
+    .PheolTable, .OrangeTable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 70%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+  #IZB{    margin-left: 0;
+      margin-bottom: 4%;
+      text-align: center;
+    font-size: 90%;}
+  .zagi {
+    margin-left: 10%;
+  }
+    .link-button {
+    width: 17%;padding: 1%;
+      margin-left: auto;  }
+      .container22{
+        grid-template-columns: 1fr ;
+      }
+      .vvod1{
+        width: 90%;
+      }
+      .tab-button{
+        font-size: 85%;
+      }
+      .tabs{
+        display: grid;
+        /* Используем grid layout */
+        grid-template-columns: 1fr 1fr;
+      }
+  
+  
+  
+  
+      .edit-link ,.link-button{
+        font-size: 11px;  padding: 1%;
+      }
+  
+      .edit-link{
+        height: 40%;
+  width: 25%;
+  
+      }
+      .link-button{
+        height: 40%;
+  width: 27%;
+      }
+  
+        .zagi{
+        text-align: center;
+        margin-left:0;
+        }
+  
+  
+        .notification-container {
+            width: 60%;
+            margin: 0 ;
+        }
+  
+        .notification-tab{
+   font-size: 14px;
+   text-align: center;
+            width: 30%;
+   margin-left: 2%;
+        }
+  
+  }
+  

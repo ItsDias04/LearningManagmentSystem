@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\addgradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\addgradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\gradesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\gradesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\subjectsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\subjectsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\schoolsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\schoolsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\groupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\groupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\models\\tutormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\models\\tutormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\getstudentsbygroupidsubjectiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\getstudentsbygroupidsubjectiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\getgradesfortutordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\getgradesfortutordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\migrations\\20250109121036_updates12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\migrations\\20250109121036_updates12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\addtutordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\addtutordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\dto\\addsubjectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\dto\\addsubjectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\migrations\\20250113054839_updates4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\migrations\\20250113054839_updates4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|c:\\users\\diast\\source\\repos\\learningmanagementsystem\\learningmanagementsystem\\migrations\\20250115084718_pkgenerate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C629B450-6FD7-4481-B6B3-EAA649A3BE1D}|LearningManagementSystem\\LearningManagementSystem.csproj|solutionrelative:learningmanagementsystem\\migrations\\20250115084718_pkgenerate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\DataBaseController.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Controllers\\DataBaseController.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\DataBaseController.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Controllers\\DataBaseController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:24:46.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GradesModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\GradesModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\GradesModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\GradesModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\GradesModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T08:45:58.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T07:58:22.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddGradeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddGradeDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\AddGradeDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddGradeDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\AddGradeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:33:55.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T10:28:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwDkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:36:32.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TutorController.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\TutorController.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Controllers\\TutorController.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Controllers\\TutorController.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Controllers\\TutorController.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAvwO0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T07:30:05.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\appsettings.json",
+              "RelativeToolTip": "LearningManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T12:14:07.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Program.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:10:06.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T11:59:17.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TokenModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\TokenModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\TokenModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\TokenModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\TokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:35:36.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubjectsModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\SubjectsModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\SubjectsModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\SubjectsModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\SubjectsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:48:05.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SchoolsModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\SchoolsModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\SchoolsModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\SchoolsModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\SchoolsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T08:46:19.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\StudentModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\StudentModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\StudentModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\StudentModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:37:25.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GroupModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\GroupModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\GroupModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\GroupModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\GroupModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T08:48:03.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250115084718_pkGenerate1.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250115084718_pkGenerate1.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Migrations\\20250115084718_pkGenerate1.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250115084718_pkGenerate1.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Migrations\\20250115084718_pkGenerate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T08:47:18.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TutorModel.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\TutorModel.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Models\\TutorModel.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Models\\TutorModel.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Models\\TutorModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T08:51:29.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetStudentsByGroupIdSubjectIdDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\GetStudentsByGroupIdSubjectIdDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\GetStudentsByGroupIdSubjectIdDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\GetStudentsByGroupIdSubjectIdDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\GetStudentsByGroupIdSubjectIdDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:30:23.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetGradesForTutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\GetGradesForTutorDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\GetGradesForTutorDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\GetGradesForTutorDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\GetGradesForTutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T10:51:59.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250109121036_Updates12.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250109121036_Updates12.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Migrations\\20250109121036_Updates12.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250109121036_Updates12.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Migrations\\20250109121036_Updates12.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:10:36.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250113054839_Updates4.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250113054839_Updates4.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\Migrations\\20250113054839_Updates4.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\Migrations\\20250113054839_Updates4.cs",
+              "RelativeToolTip": "LearningManagementSystem\\Migrations\\20250113054839_Updates4.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T05:48:40.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddStudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddStudentDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\AddStudentDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddStudentDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\AddStudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:33:33.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddTutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddTutorDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\AddTutorDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddTutorDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\AddTutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:25:37.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddSubjectsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddSubjectsDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagementSystem\\DTO\\AddSubjectsDTO.cs",
+              "ToolTip": "C:\\Users\\diast\\source\\repos\\LearningManagementSystem\\LearningManagementSystem\\DTO\\AddSubjectsDTO.cs",
+              "RelativeToolTip": "LearningManagementSystem\\DTO\\AddSubjectsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:47:55.459Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

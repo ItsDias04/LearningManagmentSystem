@@ -1,0 +1,67 @@
+
+        <div class="container">
+            <div class="card">
+                <div  class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="130" viewBox="0,0,250,150">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M13.083,42h21.834c3.912,0 7.083,-3.171 7.083,-7.083v-21.834c0,-3.912 -3.171,-7.083 -7.083,-7.083h-21.834c-3.912,0 -7.083,3.171 -7.083,7.083v21.834c0,3.912 3.171,7.083 7.083,7.083z" fill="#91193b"></path><path d="M23,34c-2.347,-4.355 -8,-5 -12,-1v-16c4,-4 9,-3 12,0z" fill="#ffffff"></path><path d="M25,34c2.347,-4.355 8,-5 12,-1v-16c-4,-4 -9,-3 -12,0z" fill="#ffffff"></path></g></g>
+                        </svg>
+                </div>
+                
+            <p>Welcome</p>
+            <p>It's nice to see you</p>
+            <form class="registration-form" [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                  <div class="input-form">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="textfield"
+                      formControlName="username"
+                      required
+                    />
+                    <!-- <div *ngIf="authForm.get('email')?.invalid && authForm.get('email')?.touched" class="error">
+                      Please enter a valid email.
+                    </div> -->
+                  </div>
+                </div>
+              
+                <div class="form-group">
+                  <div class="input-form">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      class="textfield"
+                      id="password"
+                      formControlName="password"
+                      required
+                    />
+                    <!-- <div *ngIf="authForm.get('password')?.invalid && authForm.get('password')?.touched" class="error">
+                      Password must be at least 6 characters long.
+                    </div> -->
+                  </div>
+                </div>
+              
+                <div class="form-actions">
+                  <label for="checkbox1" class="checkbox">
+                    <input
+                      type="checkbox"
+                      id="checkbox1"
+                      class="checkboxinp"
+                      formControlName="rememberMe"
+                    />
+                    <p class="checkbox_p">Remember me</p>
+                  </label>
+                  
+                </div>
+              
+                <button type="submit" [disabled]="form.invalid">Login</button>
+              
+                
+              </form>
+              
+              
+
+        </div>
+    </div>
+

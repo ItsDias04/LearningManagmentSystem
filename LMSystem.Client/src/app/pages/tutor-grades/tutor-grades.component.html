@@ -1,0 +1,69 @@
+<!-- <div style="padding-left: 40px;"><h2>Grades of students</h2></div>
+@if (subjects.length > 0) {
+    <div *ngFor="let subject of subjects">
+        <h3>{{ subject.name }}</h3>
+        <div class="container">
+          <div *ngFor="let group of subject.groups">
+            <div class="group-class">
+              <a (click)="AddGroupIdSubjectId(group.id, subject.id, group.name, subject.name)" >{{ group.name }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+} -->
+
+
+<!-- <div class="container">
+  <div class="subject">
+    
+    <div class="subject-sub" (click)="showGroups = !showGroups">
+      <h3>Math</h3>
+      <img src="/images/icon-arrow-down.png" style="display: flex; width: 20px;">
+    </div>
+    <div class="groups">
+      <div class="group">
+        <p>Hello</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="subject">
+    <div class="subject-sub" (click)="showGroups = !showGroups">
+      <h3>Math</h3>
+      <img src="/images/icon-arrow-down.png" style="display: flex; width: 20px;">
+    </div>
+    <div class="groups">
+      <div class="group"><p>Hello</p></div>
+    </div>
+  </div>
+  <div class="subject">
+    <div class="subject-sub" (click)="showGroups = !showGroups">
+      <h3>Math</h3>
+      <img src="/images/icon-arrow-down.png" style="display: flex; width: 20px;">
+    </div>
+    <div class="groups">
+      <div class="group"><p>Hello</p></div>
+      
+      <div class="group"><p>Hello</p></div>
+      
+    </div>
+  </div>
+</div> -->
+<div style="padding-left: 40px;"><h2>Grades of students</h2></div>
+@if (subjects.length > 0) {
+<div class="container">
+  <div *ngFor="let subject of subjects; let i = index" class="subject">
+    <div class="subject-sub" (click)="toggleGroups(i)">
+      <h3>{{ subject.name }}</h3>
+      <img src="/images/icon-arrow-down.png" style="display: flex; width: 20px;" *ngIf="!subject.showGroups">
+      <img src="/images/icon-arrow-up.png" style="display: flex; width: 20px;" *ngIf="subject.showGroups">
+    </div>
+    <div class="groups" *ngIf="subject.showGroups">
+      <div *ngFor="let group of subject.groups" class="group" style="cursor: pointer;" (click)="AddGroupIdSubjectId(group.id, subject.id, group.name, subject.name)">
+        <p>Group {{ group.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+}

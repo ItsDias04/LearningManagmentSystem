@@ -1,0 +1,55 @@
+
+<h2 style="padding-left: 35px;">My Subjects</h2>
+          
+<div class="container-main-content">
+  <div class="zaglav">
+    <div class="item-zaglav">
+      <p class="zagst">Subject name</p>
+    </div>
+    
+    <div class="item-zaglav">
+      <p class="zagst" >Description</p>
+
+    </div>
+    
+    <div class="item-zaglav">
+      <p class="zagst">Groups count</p>
+    </div>
+    <div class="item-zaglav">
+     <p class="zagst" style="text-align: left;">Students count</p>
+    </div>
+    
+  </div>
+  @for(subject of subjects; track subjects){
+  <div class="container3">
+
+  <div class="item">
+    <p style="text-align: left;">{{subject.name}}</p>
+    
+  </div>
+  
+  <div class="item description2">
+    <p style="text-align: left;">{{subject.description}}</p>
+    
+
+  </div>
+  
+  <div class="item">
+    <p>{{ subject.groupsCount }}</p>
+  </div>
+  <div class="item">
+
+      <div style="display: flex; flex-direction: column;">
+          <p>{{ subject.studentsCount }}</p>
+          
+      </div>
+
+  </div>
+  
+  
+  </div>
+}
+</div>
+
+
+    

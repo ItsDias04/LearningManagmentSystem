@@ -1,0 +1,60 @@
+
+          <h2 style="padding-left: 35px;">My Subjects</h2>
+          
+          <div class="container-main-content">
+            <div class="zaglav">
+              <div class="item-zaglav">
+                <p class="zagst">Subject name</p>
+              </div>
+              
+              <div class="item-zaglav">
+                <p class="zagst" >Description</p>
+      
+              </div>
+              
+              <div class="item-zaglav">
+                <p class="zagst">Tutor</p>
+              </div>
+              <div class="item-zaglav">
+               <p class="zagst" style="text-align: left;">Tutor email</p>
+              </div>
+              <div class="item-zaglav">
+                <p class="zagst">Phone number</p>
+              </div>
+            </div>
+            @for(subject of subjects; track subject.userName){
+            <div class="container3">
+        
+            <div class="item">
+              <p style="text-align: left;">{{subject.name}}</p>
+              
+            </div>
+            
+            <div class="item description2">
+              <p style="text-align: left;">{{subject.description}}</p>
+              
+        
+            </div>
+            
+            <div class="item">
+              <p>{{ subject.userName }}</p>
+            </div>
+            <div class="item">
+        
+                <div style="display: flex; flex-direction: column;">
+                    <p>{{ subject.email }}</p>
+                    
+                </div>
+        
+            </div>
+            <div class="item">
+                <div style="display: flex; flex-direction: column;">
+                    <p>{{ subject.phoneNumber }}</p>
+                    
+                </div>
+            </div>
+            
+            </div>
+        }
+        </div>
+

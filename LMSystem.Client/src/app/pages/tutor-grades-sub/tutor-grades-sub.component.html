@@ -1,0 +1,52 @@
+<div style="padding-left: 40px;"><h2>Grades of students</h2></div>
+
+<form (ngSubmit)="saveData()">
+    <div *ngIf="data.length > 0">
+      <div style="padding-left: 40px;"><h3> / {{SubjectName}} / Group {{GroupName}}</h3></div>
+      <div class="container-main-content">
+        <div *ngFor="let student of data; let studIndex = index; trackBy: trackByIndex" >
+          <div class="container3">
+
+            <div class="item">
+
+              <p style="text-align: left;">{{student.userName}}</p>
+            </div>
+
+            <div class="item">
+              <div style="display: flex; flex-direction: column;">
+                <div class="grid">
+                    <div class="cell"  
+                    *ngFor="let grade of student.grades; let gradeIndex = index"
+                    [ngStyle]="{ 'background-color': getBackgroundColor(grade.gradeNumber) }"
+                    >
+                      {{ grade.gradeNumber }}
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="item">
+              <input
+            type="text"
+            [(ngModel)]="student.newGrade"
+            [name]="'newGrade_' + studIndex"
+            pattern="[0-9]*"
+            maxlength="3"
+            style="text-align: center; font-size: 20px;"
+          />
+            </div>
+
+          </div>
+          
+          
+        </div>
+      </div>
+    
+      <div class="btn-div">
+        <button type="submit" class="btn-new">Сохранить</button>
+      </div>
+      
+    </div>
+  </form> 
+  
+  

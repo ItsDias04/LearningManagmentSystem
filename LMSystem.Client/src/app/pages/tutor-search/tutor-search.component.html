@@ -1,0 +1,109 @@
+
+        
+<div class="header-0" id="header-main-0">
+  <div class="header1" id="header-id">
+    <form (ngSubmit)="search()">
+      <div class="button-group">
+        <button class="but-search-list" (click)="showSearch = !showSearch">
+          <img src="/images/icon-arrow-down.png" style="display: flex; width: 20px;" *ngIf="!showSearch">
+          <img src="/images/icon-arrow-up.png" style="display: flex; width: 20px;" *ngIf="showSearch">
+        </button>
+        
+      
+
+        <input type="search" [(ngModel)]="filterParams.filterByUserName" name="s" placeholder="Search" class='search'>
+
+        
+        <button type="submit" class="search-but" style="cursor: pointer; border: none; background: none;">
+          <svg fill="#871738" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 488.4 488.4" xml:space="preserve">
+
+          <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+          
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+          
+          <g id="SVGRepo_iconCarrier"> <g> <g> <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"/> </g> </g> </g>
+          
+          </svg>
+      </button>
+      </div>
+
+      <div class="search-params" *ngIf="showSearch">
+        <div class="search-param">
+          <div style="height: 15px;"><p>Group filter</p></div>
+          <div style="display: flex; flex-direction: row;"><div *ngFor="let group of groupsIsChecked" style="width: 400px;">
+            <label class="group-check">
+              <input type="checkbox" [(ngModel)]="group.isChecked" name="exampleCheckbox" />
+              <p>{{ group.name }}</p>
+            </label>
+            
+          </div></div>
+          
+          <hr>
+        </div>
+        <div class="search-param">
+          
+        </div>
+      </div>
+    </form>
+    
+
+  </div>
+</div>
+        
+<div class="container-main-content">
+            <div class="zaglav">
+              <div class="item-zaglav">
+                <p class="zagst">Student name</p>
+              </div>
+              
+              <div class="item-zaglav">
+                <p class="zagst" >Bio</p>
+      
+              </div>
+              
+              <div class="item-zaglav">
+                <p class="zagst">Group</p>
+              </div>
+              <div class="item-zaglav">
+               <p class="zagst" style="text-align: left;">Student email</p>
+              </div>
+              <div class="item-zaglav">
+                <p class="zagst">Phone number</p>
+              </div>
+            </div>
+            @for(subject of students; track subject.userName){
+            <div class="container3">
+        
+            <div class="item">
+              <p style="text-align: left;">{{subject.userName}}</p>
+              
+            </div>
+            
+            <div class="item description2">
+              <p style="text-align: left;">{{subject.bio}}</p>
+              
+        
+            </div>
+            
+            <div class="item">
+              <p>{{ subject.groupName }}</p>
+            </div>
+            <div class="item">
+        
+                <div style="display: flex; flex-direction: column;">
+                    <p>{{ subject.email }}</p>
+                    
+                </div>
+        
+            </div>
+            <div class="item">
+                <div style="display: flex; flex-direction: column;">
+                    <p>{{ subject.phoneNumber }}</p>
+                    
+                </div>
+            </div>
+            
+            </div>
+        }
+</div>
+

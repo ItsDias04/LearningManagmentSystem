@@ -1,0 +1,157 @@
+#but12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+#but13 {
+    width: 20px;
+    height: 20px;
+}
+#IZB {
+    margin-left: 20px;
+}
+.zaglav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 77px;
+    /* margin-left: 20px; */
+    width: 100%;
+}
+.container-main-content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    columns: 1;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-left: 35px;
+    width: fit-content;
+    height: 580px;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* установите фиксированную ширину для горизонтальной прокрутки */
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.imagebook {
+    width: 100px;
+}
+.checkbox-group {
+    display: flex; /* Размещаем метку и чекбокс в строку */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    flex-direction: row;
+    gap: 10px;
+    height: 50px;
+}
+.image-text-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.Reead{
+    background-color: white; /* более темный зеленый при наведении */
+    color: red; /* белый цвет текста */
+    border-color: red; /* убрать границу */
+    padding: 10px 20px; /* внутренние отступы */
+    font-size: 16px; /* размер шрифта */
+    border-radius: 5px; /* скругление углов */
+    cursor: pointer; /* курсор при наведении */
+    margin:0;
+  }
+  .imagek1 {
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    cursor: pointer; /* курсор при наведении */
+    width: 20%; /* Ограничиваем максимальную ширину изображения */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    justify-content: flex-start; /* Выравниваем содержимое по левому краю */
+    margin: 1.7vw; /* Добавляем отступ вокруг контейнера */
+  }
+  .in-shelf-button {
+    background-color: #1de81c; /* зеленый цвет фона */
+    color: white; /* белый цвет текста */
+    border: none; /* убрать границу */
+    padding: 10px 20px; /* внутренние отступы */
+    font-size: 14px; /* размер шрифта */
+    border-radius: 5px; /* скругление углов */
+    cursor: pointer; /* курсор при наведении */
+    margin: 0.7vw;
+    height: 35px;
+  }
+  
+  .in-shelf-button:hover {
+    background-color: darkgreen; /* более темный зеленый при наведении */
+  }
+  .item  {
+    
+    display: flex;
+    justify-content: center;
+  }
+  .item-zaglav {
+    
+  }
+  #read-but {
+    display: flex;
+    align-items: center;
+  }
+  #box-h {
+    display: flex;
+    align-items: center;
+  }
+  #imagek{
+    width: 40px;
+    height: 40px;
+  }
+
+  .description2 {
+    width: 200px;
+  }
+/*--------------------------------------------------*/
+
+[id^="heart"] {
+    position: absolute;
+    left: -100vw;
+}
+
+[for^="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 2em;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+}
+
+[for^="heart"]:hover {
+    color: grey;
+}
+
+[for^="heart"]::selection {
+    color: none;
+    background: transparent;
+}
+
+[for^="heart"]::moz-selection {
+    color: none;
+    background: transparent;
+}
+
+[id^="heart"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+
+@keyframes heart {
+    0%, 17.5% {font-size: 0;}
+}

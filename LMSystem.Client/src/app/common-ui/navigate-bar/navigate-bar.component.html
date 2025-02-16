@@ -1,0 +1,46 @@
+<!-- <p>navigate-bar works!</p> -->
+<div class="container">
+    <div class="card">
+      <div class="container-menu">
+        <div class="menu">
+            <div  class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="130" viewBox="0,0,250,150">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M13.083,42h21.834c3.912,0 7.083,-3.171 7.083,-7.083v-21.834c0,-3.912 -3.171,-7.083 -7.083,-7.083h-21.834c-3.912,0 -7.083,3.171 -7.083,7.083v21.834c0,3.912 3.171,7.083 7.083,7.083z" fill="#91193b"></path><path d="M23,34c-2.347,-4.355 -8,-5 -12,-1v-16c4,-4 9,-3 12,0z" fill="#ffffff"></path><path d="M25,34c2.347,-4.355 8,-5 12,-1v-16c-4,-4 -9,-3 -12,0z" fill="#ffffff"></path></g></g>
+                    </svg>
+            </div>
+          <div class="menu-options">
+            <div class="link-options">
+              <!-- <img class="icon-menu" src="css/images/icons-menu/home-icon.png"></img> -->
+              <a class="link"  style="color: grey;" [routerLink]="['/'+role+'/grades']">Grades</a>
+            </div>
+            <div class="link-options">
+              
+              <a class="link"  style="color: grey;" [routerLink]="['/'+role+'/subjects']">My subjects</a>
+            </div>
+            <div class="link-options">
+              
+              <a class="link" type="link" style="color: grey;" [routerLink]="['/'+role+'/profile']">Profile</a>
+            </div>
+            <div class="link-options" *ngIf="role == 'tutor'"> 
+              <a class="link"  style="color: grey;"  [routerLink]="['/tutor/search']">Search</a>
+            </div>
+          </div>
+          <div class="menu-options-sub">
+            
+            <a class="link-sub-opt" (click)="logout()" style="display: flex; flex-direction: row; gap:3px; justify-content: center; align-items: center; cursor: pointer;">
+              <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 16L21 12M21 12L17 8M21 12L7 12M13 16V17C13 18.6569 11.6569 20 10 20H6C4.34315 20 3 18.6569 3 17V7C3 5.34315 4.34315 4 6 4H10C11.6569 4 13 5.34315 13 7V8" stroke="#374151" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+              <p>logout</p></a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="container-content">
+  
+      <router-outlet></router-outlet>
+      
+      </div>
+    </div>
+  </div>
+
+  

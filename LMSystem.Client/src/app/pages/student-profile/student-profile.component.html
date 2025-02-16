@@ -1,0 +1,63 @@
+@if (profile) {
+    <h1 class="hello">Hello, student!</h1>
+    <div class="container1">
+             
+              <div class="tab-content" id="account-settings">
+          
+          
+          
+          
+          
+          
+                        <div class="container2">
+          
+                <div class="PrPicture ">
+             <p id="IZB" >Your Profile Picture</p>
+                     <img src="images/profile-image.jpg" class="imagek1">
+                     
+          
+          
+                </div>
+                  <div class="PheolTable ">
+          
+               <p class="imag1" >Subjects</p>
+               <p class="imag2">{{ profile.subjects.length }}</p>
+          
+                     </div>
+                     <div class="OrangeTable ">
+          
+                  <p class="imag1" >Group:</p>
+                  <p class="imag2" >{{ profile.groupName }}</p>
+          
+                        </div>
+                           </div>
+                               <div class="containerOUT">
+                           <div class="container22">
+                               <div id="ada">
+                                   <p id="IZy">Full Name</p>
+                                   <input value="{{ profile.userName}}"  class="vvod" type="text" id="name" name="name" maxlength="30" placeholder="Тут ваше имя" readonly>
+                               </div>
+                               <div>
+                                   <p id="IZy"> Email </p>
+                                   <input value="{{ profile.email }}"  class="vvod" type="text" id="name" name="name" maxlength="30" placeholder="Тут ваш ID" readonly>
+                               </div>
+                               <div>
+                                   <p id="IZy1">School </p>
+                                   <input value="{{ profile.schoolName}}" class="vvod" type="text" id="name" name="name" maxlength="11" placeholder="Тут ваш номер регистрации" readonly>
+                               </div>
+                               <div>
+                                   <p id="IZy1">Phone Number </p>
+                                   <input value="{{ profile.phoneNumber}}" class="vvod" type="text" id="name" name="name" maxlength="11" placeholder="Тут ваш номер" readonly>
+                               </div>
+                           </div>
+                           <p id="IZy2">Bio</p>
+          
+                           <textarea class="vvod1" id="name" name="name" placeholder="Введите текст" maxlength="1000" readonly>{{ profile.bio }}</textarea>
+          
+           </div>
+          
+          </div>
+          
+          
+    </div>
+    }

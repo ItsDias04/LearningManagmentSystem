@@ -1,0 +1,42 @@
+
+<h2 style="padding-left: 15px;">My grades</h2>
+<div class="container-main-content">
+<div *ngFor="let grade of grades; let i = index;">
+    
+    
+        <div class="container3">
+    
+        <div class="item">
+          <p style="text-align: left;">{{grade.name}}</p>
+          
+        </div>
+        
+        <div class="item">
+          <p style="text-align: left;">{{grade.tutorName}}</p>
+          
+     
+        </div>
+        
+    
+        <div class="item">
+            <div style="display: flex; flex-direction: column;">
+                <div class="grid">
+                    <div class="cell" 
+                    *ngFor="let iter of grade.grades; let j = index;" 
+                    [ngStyle]="{ 'background-color': getBackgroundColor(iter) }"
+                    >
+                      {{ iter }}
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        </div>
+    
+</div>
+
+
+
+</div>
+

@@ -1,0 +1,81 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    height: min-content;
+    width: 300px;
+}
+  .cell {
+    width: fit-content;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BBC856;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .container-main-content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    columns: 1;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-left: 35px;
+    height: 440px;
+    /* width: max-content; */
+    /* height: 580px; */
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* установите фиксированную ширину для горизонтальной прокрутки */
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    height: 100px;
+}
+.item  {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  input {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  }
+
+  .btn-new {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn-new:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3C82F8;
+}
+.btn-div {
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+}
